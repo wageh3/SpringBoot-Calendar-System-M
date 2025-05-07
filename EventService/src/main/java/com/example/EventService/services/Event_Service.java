@@ -1,12 +1,12 @@
 package com.example.EventService.services;
 
-import com.example.se2project.Event.Event_Repo;
-import com.example.se2project.EventStatus.EventStatus_Repo;
-import com.example.se2project.Models.Event;
-import com.example.se2project.Models.EventDTO;
-import com.example.se2project.Models.Eventstatus;
-import com.example.se2project.Models.User;
-import com.example.se2project.User.User_Repo;
+import com.example.EventService.Event.Event_Repo;
+import com.example.EventService.EventStatus.EventStatus_Repo;
+import com.example.EventService.Models.Event;
+import com.example.EventService.Models.EventDTO;
+import com.example.EventService.Models.Eventstatus;
+import com.example.EventService.Models.User;
+import com.example.EventService.User.User_Repo;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
