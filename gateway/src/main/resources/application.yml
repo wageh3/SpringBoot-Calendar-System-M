@@ -11,21 +11,7 @@ spring:
       discovery:
         locator:
           enabled: false
-      routes:
-        - id: user-service
-          uri: lb://user-service
-          predicates:
-            - Path=/users/**
 
-        - id: course-service
-          uri: lb://course-service
-          predicates:
-            - Path=/courses/**
-
-        - id: feedback
-          uri: lb://feedback
-          predicates:
-            - Path=/feedback/**
       globalcors:
         corsConfigurations:
           '[/]':

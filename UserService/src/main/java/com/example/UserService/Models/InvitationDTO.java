@@ -1,4 +1,4 @@
-package com.example.InvitationService.Models;
+package com.example.UserService.Models;
 
 public class InvitationDTO {
     private Integer invitation_id;

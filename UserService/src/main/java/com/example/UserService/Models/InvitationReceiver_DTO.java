@@ -1,4 +1,4 @@
-package com.example.InvitationService.Models;
+package com.example.UserService.Models;
 import java.time.LocalDate;
 import java.time.LocalTime;
 

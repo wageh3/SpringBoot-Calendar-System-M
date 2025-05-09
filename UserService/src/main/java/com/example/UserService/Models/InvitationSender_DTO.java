@@ -1,4 +1,4 @@
-package com.example.InvitationService.Models;
+package com.example.UserService.Models;
 
 public class InvitationSender_DTO {
     private String receiver_name ;
